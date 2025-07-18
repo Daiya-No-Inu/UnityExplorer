@@ -49,7 +49,7 @@ jobs:
           path: ./Release/UnityExplorer.BepInEx5.Mono/
       
       # BepInEx 6 Mono
-      - uses: actions/upload-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           name: UnityExplorer.BepInEx6.Mono.zip
           path: ./Release/UnityExplorer.BepInEx6.Mono/
